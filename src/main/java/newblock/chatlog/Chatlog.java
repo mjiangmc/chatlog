@@ -163,6 +163,7 @@ public class Chatlog {
         langManager.loadLang();
         config.loadConfig();
         filterManager.loadFilters();
+        filterReplaceConfig.loadConfig();
         logger.info(getMessage("plugin.reload"));
     }
 }
